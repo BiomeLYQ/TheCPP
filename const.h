@@ -1,1 +1,0 @@
-const int bufsiz = 1024;
