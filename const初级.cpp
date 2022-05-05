@@ -5,7 +5,7 @@ using namespace std;
 
 int main() {
 
-	//**1.const对象必须初始化
+//**1.const对象必须初始化
 	const int n1 = 42;	//正确
 
 
@@ -51,7 +51,7 @@ int main() {
 	const int* n4_ptr = &n4;
 
 
-	//**5.顶层const 与 底层const
+//**5.顶层const 与 底层const
 	int n5 = 100;
 	int* const n5_ptr1 = &n5;	//顶层const表示这个指针本身是const，即本身不可被修改。(右本)
 	const int* n5_ptr2 = &n5;	//底层const表示它所指向的对象不可通过该指针修改。(左指)
